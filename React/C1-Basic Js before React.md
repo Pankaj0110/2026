@@ -1,4 +1,4 @@
-# what is the use of defer attribute in `<script>` tag
+# 1. what is the use of defer attribute in `<script>` tag
 
 - Attribue: none
   Parsing: is paused during download and running the script
@@ -25,7 +25,7 @@ For dependent scripts: If Script B relies on Script A, using defer on both ensur
 
 Performance: It is generally the best practice for most external scripts because it prevents the "white screen" effect where users wait for scripts to load before seeing the page content.
 
-# What is `<noscript> tag`?
+# 2. What is `<noscript> tag`?
 The `<noscript>` tag is a fallback mechanism used to display alternative content for users who have disabled JavaScript in their browser or are using a browser that doesn’t support it.
 
 Think of it as a "Plan B." If JavaScript is running, the browser completely ignores everything inside the `<noscript>` tags. If JavaScript is off, the browser reveals that content to the user.
@@ -39,7 +39,7 @@ Think of it as a "Plan B." If JavaScript is running, the browser completely igno
 
   CSS Fallbacks: Applying specific styles to ensure the page remains readable without interactive elements.
 
-# Why react application needs a build process?
+# 3. Why react application needs a build process?
   React requires a build process because the code developers love to write is not the code browsers actually understand. When you build a React app, you are essentially translating and optimizing your source code into a high-performance package that can run on any user's device.
   1. JSX Transformation
     React uses JSX (JavaScript XML), which allows you to write HTML-like structures directly inside your JavaScript. However, browsers can only read standard JavaScript objects and strings.
@@ -69,7 +69,7 @@ The Build Solution: The build process "transpiles" your modern code into older v
    Image Compression: Automatically shrinking asset sizes.
 
 
-  # What is tree shaking and Rollup in React build process?
+  # 4. What is tree shaking and Rollup in React build process?
    Tree Shaking is a term for dead-code elimination. Imagine your code and all its dependencies as a giant tree. The functions you actually use are the "living" branches. Tree shaking "shakes" the tree so that the "dead leaves" (the functions you imported but never used) fall off, leaving only the essential code in your final bundle.
 
    ## How it works:

@@ -1,5 +1,5 @@
 
-# Define react.js, react-dom.js and react-scripts.js?
+# 1. Define react.js, react-dom.js and react-scripts.js?
   ## 1. react (The Brains)
   The react package is the core library. It contains only the logic necessary to define components and handle the Virtual DOM.
 
@@ -35,6 +35,6 @@ It manages the complex Build Process we discussed earlier. It hides all the comp
     npm test: Runs your test suites.
 
 
-# How React handles a component and how it builds a *Component Tree* ?
+# 2. How React handles a component and how it builds a *Component Tree* ?
 
 
