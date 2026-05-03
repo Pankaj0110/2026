@@ -11,7 +11,7 @@
   Script download: Parallel (background)
   Script execution: After HTML parsing is finished
   Order Preservation: Scripts with defer execute in the exact order they appear in the code.
-  DOM Ready: The scripts will only run after the DOM is fully constructed, but before the DOMContentLoaded event fires.
+  DOM Ready: The scripts will *only run after the DOM is fully constructed*, but before the *DOMContentLoaded* **event fires**.
 
 - Attribute: async
   Parsing: Paused only while executing

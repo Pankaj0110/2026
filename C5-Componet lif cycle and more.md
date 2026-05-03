@@ -1,0 +1,1 @@
+# Component life cycle and more about how component re-render when prop changes, state changes and even when the functio is passed as props.
