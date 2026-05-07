@@ -1,7 +1,7 @@
 # React Reconciliation
 
 *React reconciliation is the process React uses to determine:
-"Given the `state` or `prop` changed, what is the minimal set of updates needed to make the UI match the new application `state`"
+"Given the `state` or `prop` changed, what is the minimal set of updates needed to make the UI match the new application `state`"*
 
 ## To understand the reconciliation completely one need to understand below concpts
 1. React Elements
@@ -915,13 +915,13 @@ DOM mutations + effects
 ```
 
 ## FEW more deep dive topics
-Fiber lanes implementation
-Hook linked-list internals
-Scheduler package internals
-Suspense architecture
-React Server Components
-Selective hydration
-Host config & custom renderers
-Event priority system
-Automatic batching
-Offscreen Fiber
+- Fiber lanes implementation
+- Hook linked-list internals
+- Scheduler package internals
+- Suspense architecture
+- React Server Components
+- Selective hydration
+- Host config & custom renderers
+- Event priority system
+- Automatic batching
+- Offscreen Fiber
