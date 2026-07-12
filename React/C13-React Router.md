@@ -486,7 +486,7 @@ const ProtectedRoute = ({ allowedRoles }) => {
 You can use middleware (as it runs before loader & action)
 
 
-```
+```js
 // middleware.ts
 import { redirect } from "react-router";
 
